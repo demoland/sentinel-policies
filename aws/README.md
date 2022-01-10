@@ -1,6 +1,10 @@
 
 # AWS Sentinel Policies
 
-To demo individual policies, point TF Policy set to an individual policy's directory.
-
-To demo multiple policy checks, point to this directory.
+To enforce all policies, point to sentinel.hcl in the root CSP directory 
+       
+       * Example: sentinel-policies/aws/sentinel.hcl
+        
+To enforce individual policies, point to sentinel.hcl within the specific policy subdirectory
+       
+       * Example: sentinel-policies/aws/enforce-cost-contro/sentinel.hcl
